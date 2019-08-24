@@ -1,19 +1,21 @@
 package mavenDemo;
 
 public class Employee {
-	Name n;
-	Address a;
-	Contact c;
+	
+	private Name n;
+	private Address a;
+	private Contact c;
 	private String empID;
 	private String empStatus;
-	public Employee(Name n, Address a, Contact c, String empID, String empStatus) {
-		super();
-		this.n = n;
-		this.a = a;
-		this.c = c;
-		this.empID = empID;
-		this.empStatus = empStatus;
-	}
+//	public Employee(Name n, Address a, Contact c, String empID, String empStatus) {
+//		super();
+//		this.n = n;
+//		this.a = a;
+//		this.c = c;
+//		this.empID = empID;
+//		this.empStatus = empStatus;
+//	}
+	public Employee() {}
 	public Name getN() {
 		return n;
 	}
@@ -43,6 +45,11 @@ public class Employee {
 	}
 	public void setEmpStatus(String empStatus) {
 		this.empStatus = empStatus;
+	}
+	
+	@Override
+	public String toString () {
+		return "Employee [n=" + n + ", a=" + a + ", c=" + c + ", empID=" + empID + ", empStatus=" + empStatus + "]";
 	}
 	
 	

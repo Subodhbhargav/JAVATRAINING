@@ -7,17 +7,22 @@ public class Address {
 	private String city;
 	private String State;
 	private String zipCode;
-	public Address(String line1, String line2, String city, String state, String zipCode) {
-		super();
-		this.line1 = line1;
-		this.line2 = line2;
-		this.city = city;
-		State = state;
-		this.zipCode = zipCode;
-	}
+//	public Address(String line1, String line2, String city, String state, String zipCode) {
+//		super();
+//		this.line1 = line1;
+//		this.line2 = line2;
+//		this.city = city;
+//		State = state;
+//		this.zipCode = zipCode;
+//	}
+	
+	
 	public String getLine1() {
 		return line1;
 	}
+	public Address() {
+	
+}
 	public void setLine1(String line1) {
 		this.line1 = line1;
 	}

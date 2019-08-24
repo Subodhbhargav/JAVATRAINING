@@ -3,10 +3,16 @@ package mavenDemo;
 public class Contact {
   private String email;
   private String phoneNumber;
-public Contact(String email, String phoneNumber) {
-	super();
-	this.email = email;
-	this.phoneNumber = phoneNumber;
+//public Contact(String email, String phoneNumber) {
+//	super();
+//	this.email = email;
+//	this.phoneNumber = phoneNumber;
+//}
+  
+  
+
+public Contact() {
+	
 }
 public String getEmail() {
 	return email;
